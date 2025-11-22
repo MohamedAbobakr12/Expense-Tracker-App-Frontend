@@ -8,8 +8,8 @@ import { API_PATHS } from '../../utils/apiPaths';
 import { UserContext } from '../../context/userContext';
 
 const Login = () => {
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [email, setEmail] = useState("alex@timetoprogram.com");
+    const [password, setPassword] = useState("test@123");
     const [error, setError] = useState(null);
 
     const { updateUser } = useContext(UserContext);
