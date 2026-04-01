@@ -1,4 +1,4 @@
-export const BASE_URL = "https://expense-tracker-app-backend-phi.vercel.app";
+export const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 // utils/apiPath.js
 export const API_PATHS = {
